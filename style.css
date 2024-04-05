@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+}
+
+.purple {
+    background-color: #60267f;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.learn-more {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.main-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-header-container img {
+    width: 150px;
+}
+
+.main-header-list * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #2b0236;
+}
+
+.main-header-list button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #9a54bc;
+    border-radius: 5px;
+    color: #9a54bc;
+}
+
+.main-header-list button:hover {
+    color: #fff;
+    background: #9a54bc;
+    cursor: pointer;
+}
+
+.top-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.top-header-container h1 {
+    font-size: 40px;
+    color: #2b0236;
+}
+
+.top-header-container button {
+    padding: 15px 30px;
+    background-color: #9a54bc;
+    border: none;
+    border: 1.5px solid #9a54bc;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.top-header-container button:hover {
+    background-color: #fff;
+    color: #60267f;
+}
+
+.elipse-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 100px;
+}
+
+.big-elipse {
+}
+
+.small-elipse {
+    top: 120px;
+}
+
+.top-phone {
+    top: 130px;
+}
+
+.logo-in-elipse {
+    top: 230px;
+}
+
+.btn-in-elipses {
+    top: 420px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    border: 2px solid #9a54bc;
+    border-radius: 5px;
+    color: #9a54bc;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-in-elipses:hover {
+    background-color: #9a54bc;
+    color: #fff;
+}
