@@ -173,8 +173,61 @@ h2 {
 
 
 .how-help-container {
-    margin-top: 150px;
-    justify-content: center;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 50%;
+    margin-top: 8rem;
+    gap:10rem;
+}
+
+.para-container {
+    width: 30rem;
+}
+
+.how-help-btn-container {
+    width: 100%;
+    background-color: #FFF;
+    padding: 0.5rem;
+    box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+        -webkit-box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+        -moz-box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+    display:flex;
     align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+
+.how-help-btn-container button {
+    width: 50%;
+    padding: 0.6rem;
+    border:none;
+    border:2px solid #FFF;
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+.how-help-btn-container button:hover {
+    background-color: #60267f;
+    color:#FFF;
+    border:2px solid #9a54bc;
+    border-radius:5px;
+}
+
+.how-help-all-text-container {
+    width: 90%;
+    display: flex;
     flex-direction: column;
+    margin: 1.5rem auto;
+    gap:0.5rem;
+}
+
+.how-help-all-text-container p {
+    padding: 1rem;
+    background-color: #F2F2F2;
+    font-size: 14px;
+}
+
+.img-container img {
+    width: 300px;
 }
