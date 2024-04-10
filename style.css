@@ -229,5 +229,54 @@ h2 {
 }
 
 .img-container img {
-    width: 300px;
+    width: 15rem;
 }
+
+.video-main-container {
+    margin-top:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+}
+
+.video-main-container p {
+    width:50%;
+    text-align: center;
+}
+
+.project-done-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project-done-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.card {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.card img {
+    width: 400px;
+}
+
+.card p, span {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.card p { 
+    color:#60267f;
+}
+
