@@ -260,18 +260,20 @@ h2 {
     justify-content: center;
     align-items: center;
     gap:50px;
+    width: 80%;
 }
 .card {
     display:flex;
     flex-direction: column;
     gap:20px;
+    width: 30%;
 }
 
 .card img {
-    width: 400px;
+    width: 100%;
 }
 
-.card p, span {
+.card p, .card span {
     margin-left: 20px;
     font-weight: 500;
 }
@@ -280,3 +282,44 @@ h2 {
     color:#60267f;
 }
 
+.big-cards-container {
+    margin-top: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.big-cards-top-paragraph {
+    color:#A79D9D;
+    margin-top: 15px;
+}
+
+.month-year-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:35px;
+    gap:10px;
+}
+
+.monthly {
+    color: #A79D9D;
+}
+
+.month-year-container img {
+    width:35px;
+}
+
+.yearly {
+    color:#2B0236;
+    font-weight: 500;
+}
+
+.discount {
+    background-color: #FFE87A;
+    border-radius: 5px;
+    padding:3px 4px;
+    font-size:12px;
+}
