@@ -15,6 +15,10 @@ h2 {
     font-size: 36px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .purple {
     background-color: #60267f;
     text-align: center;
@@ -323,3 +327,264 @@ h2 {
     padding:3px 4px;
     font-size:12px;
 }
+
+.big-three-cards-container {
+    margin-top:50px;
+    display:flex;
+    gap:50px;
+}
+
+.big-card {
+    border:1px solid black;
+    max-width: 300px;
+    padding:2rem 3rem;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    border-radius:10px;
+}
+
+
+.big-card > ul {
+    list-style-type: none;
+}
+
+.big-card-ul-list li {
+    margin-left: 20px;
+}
+
+.big-card-ul-list li::before {
+        content: "";
+        border-color: transparent #111;
+        border-style: solid;
+        border-width: 0.35em 0 0.35em 0.45em;
+        display: block;
+        height: 0;
+        width: 0;
+        left: -1em;
+        top: 0.9em;
+        position: relative;
+}
+
+.big-card button {
+    padding:15px;
+    border:2px solid #2B0236;
+    border-radius:5px;
+    font-weight: 700;
+    font-size: 18px;
+    background: none;
+    color:#2B0236;
+}
+
+.big-third-card {
+    background-color: #56E6A5;
+}
+
+.big-third-card button {
+    background:#FFFFFF;
+}
+
+
+.ratings-section {
+    margin-top: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ratings-section-info {
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    place-items: center;
+}
+
+.ratings-section-info button {
+    padding:2rem 3rem;
+    background:none;
+    border:none;
+    cursor: pointer;
+}
+
+.ratings-section-info p {
+    text-align: center;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ratings-section-profile {
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-us-section {
+    margin-top: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:50px;
+    position:relative;
+    min-height: 600px;
+}
+
+.join-us-section p {
+    width:60%;
+    text-align: center;
+}
+
+.join-us-section button {
+    cursor: pointer;
+    padding:0.7rem 1rem;
+    color:#fff;
+    background:#9A54BC;
+    border-radius:5px;
+    border:none;
+}
+
+.join-us-absolute-container {
+    position:absolute;
+    bottom:30px;
+}
+
+.download-collab-app {
+  margin-top: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #9A54BC;
+  padding:10rem;
+  gap:40px;
+}
+
+.download-collab-app > h2 {
+    color:#fff;
+    font-size: 45px;
+}
+
+.download-collab-app-buttons {
+    display:flex;
+    gap:20px;
+}
+
+.download-collab-app-buttons button {
+    padding:0.6rem 1.5rem;
+    border-radius:5px;
+    border:2px solid #fff;
+    background:none;
+    color:#fff;
+    font-weight: 500;
+}
+
+.download-collab-app-buttons button:first-child {
+    background:#fff;
+    color:#9A54BC;
+}
+
+.section-help-container {
+    display:grid;
+    place-items:center;
+    grid-template-columns: 2fr 3fr;
+    min-height: 600px;
+    background-color: #E2BDF21C;
+}
+
+.section-help-info {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+}
+
+.section-help-info-contacts {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:30px;
+    font-weight: 500;
+}
+
+.section-help-map img {
+    min-width: 1000px;
+}
+
+footer {
+    padding:4rem 10rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-wrap {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-info-container {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.footer-info-container span {
+    font-weight: 600;
+}
+
+.footer-info-container p {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.footer-info-container-icons {
+    display:flex;
+    gap:20px;
+}
+
+.footer-info-about-container {
+    display:flex;
+    flex-direction: column;
+}
+
+.footer-info-about-company {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+
+.footer-info-about-company span {
+    font-weight: 600;
+}
+
+.footer-info-about-links {
+    display:grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+}
+
+.footer-contact-us {
+    margin-top: 30px;
+    display:flex;
+    gap:40px;
+}
+
+.footer-contact-us span {
+    font-weight: 600;
+}
+
+.terms-of-service {
+    text-align: center;
+    background-color: #60267F;
+    color:#FFF;
+    padding:0.7rem;
+}
+
+
