@@ -422,6 +422,14 @@ button {
     flex-direction: column;
 }
 
+.ratings-section-profile img {
+    width:100%;
+}
+
+.ratings-section-profile span {
+    margin-top: 10px;
+}
+
 .join-us-section {
     margin-top: 100px;
     display:flex;
